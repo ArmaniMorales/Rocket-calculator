@@ -1,7 +1,6 @@
 import math
 from tabnanny import check
 import streamlit as st
-import matplotlib.pyplot as plt
 nose_w= st.number_input('Enter the weight of the nose in grams (G): ' )
 Body_w= st.number_input('Enter the weight of the body in grams (G): ' )
 battery_w= st.number_input('Enter the weight of the battery in grams(G): ' )
