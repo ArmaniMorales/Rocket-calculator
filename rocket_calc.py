@@ -10,6 +10,7 @@ battery_x = st.number_input("Enter distance from tip to battery center (cm): ")
 motor_x = st.number_input("Enter distance from tip to motor center (cm): ")
 body_x = st.number_input("Enter distance from tip to body center (cm): ")
 total_weightG = nose_w + Body_w + battery_w + motor_w
+Center_of_Gravity = 0.0
 if total_weightG>0:
  Center_of_Gravity = ((nose_w * nose_x) + (Body_w * body_x) + (battery_w * battery_x) + (motor_w * motor_x)) / total_weightG
  st.write(f'The CG of this rocket {Center_of_Gravity:.2f}: ')
